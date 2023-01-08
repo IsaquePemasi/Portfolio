@@ -1,1 +1,1 @@
-Vercel - https://isaquepemasi.vercel.app/
+Deploy na Vercel - https://isaquepemasi.vercel.app/
