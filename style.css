@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background: #BBBBBB;
+	background: #000;
 	padding: 20px 0;
 }
 
@@ -26,14 +26,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #7B42E6;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: #00FFFF;
 	text-decoration: underline;
 }
 
@@ -138,27 +138,7 @@ form label, form legend {
 	width: 96%;
 }
 
-.checkbox {
-	margin: 20px 0;
-}
 
-.enviar {
-	width:40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background: darkorange;
-	transform: scale(1.2);
-}
 
 table {
 	margin: 20px 0 40px;
@@ -213,29 +193,7 @@ td, th {
 	margin: 0 20px 20px 0;
 }
 
-.mapa {
-	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
-}
 
-.mapa-conteudo {
-	text-align: center;
-}
-
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-
-.beneficios {
-	padding: 3em 0;
-	background: #888888;
-}
-
-.conteudo-beneficios {
-	width: 640px;
-	margin: 0 auto;
-}
 
 .lista-beneficios {
 	width: 40%;
