@@ -7,12 +7,6 @@ header {
 	padding: 20px 0;
 }
 
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
-}
-
 nav {
 	position: absolute;
 	top: 110px;
@@ -50,6 +44,9 @@ nav a:hover {
 	clear: left;
 }
 
+.itens{
+	text-align: center;
+}
 .video {
 	width: 560px;
 	margin: 2em auto;
@@ -60,6 +57,22 @@ nav a:hover {
 	margin-top: 100px;
 	text-align: center;
 	background-color: #FFFFFF;
+}
+.tituloroxo{
+	background-color: #7B42E6;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px
+}
+.tituloazul{
+	background-color: #00FFFF;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 50px
 }
 
 .mainsocial{
