@@ -44,20 +44,24 @@ nav a:hover {
 	clear: left;
 }
 
+.logo {
+	width: 200px;
+	height: 200px;
+
+}
 .itens{
 	text-align: center;
 }
 .video {
-	width: 560px;
+	width: 100%;
 	margin: 2em auto;
 	display: flex;
 	justify-content: flex-start;
 }
 .iframe{
-	width: 100%;
+	width: 516px;
 	height: 315px;
 	display: flex;
-	justify-content: flex-start;
 }
 .informacao{
 	text-align: right;
