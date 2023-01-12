@@ -47,8 +47,12 @@ nav a:hover {
 .logo {
 	width: 200px;
 	height: 200px;
-
 }
+.linguagens {
+	width: 200px;
+	height: 200px;
+}
+
 .itens{
 	text-align: center;
 }
