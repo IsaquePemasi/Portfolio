@@ -36,7 +36,10 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto;
 }
-
+.mini{
+	width: 100px;
+	height: 100px;
+}
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
