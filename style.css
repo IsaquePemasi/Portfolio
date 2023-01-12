@@ -43,29 +43,29 @@ nav a:hover {
 	margin: 0 0 1em;
 	clear: left;
 }
-
-.logo {
-	width: 200px;
-	height: 200px;
-}
 .linguagens {
 	width: 200px;
 	height: 200px;
 }
-
+.logo {
+	width: 200px;
+	height: 200px;
+}
 .itens{
 	text-align: center;
 }
-.video {
+.container-projects {
 	width: 100%;
-	margin: 2em auto;
-	display: flex;
-	justify-content: flex-start;
-}
-.iframe{
-	width: 516px;
 	height: 315px;
+	max-width: 80vw;
+	margin: 30px auto;
 	display: flex;
+}
+
+.iframe{
+	width: 450px;
+	height: 100%;
+	margin-right: 20px;
 }
 .informacao{
 	text-align: right;
