@@ -48,7 +48,10 @@ nav a:hover {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
-
+}
+.repositorio:hover {
+	background: #00FFFF;
+	transform: scale(1.2);
 }
 .links{
 	text-decoration: none;
