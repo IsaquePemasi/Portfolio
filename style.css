@@ -71,6 +71,11 @@ nav a:hover {
 	width: 200px;
 	height: 200px;
 }
+.linguagens:hover{
+	width: 250px;
+	height: 250px;
+	transform: scale(1.2);
+}
 .logo {
 	width: 200px;
 	height: 200px;
