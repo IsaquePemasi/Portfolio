@@ -61,6 +61,10 @@ nav a:hover {
 	width: 100px;
 	height: 100px;
 }
+.mini:hover{
+	width: 125px;
+	height: 125px;
+}
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
