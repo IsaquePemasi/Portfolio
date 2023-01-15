@@ -50,7 +50,7 @@ nav a:hover {
 	cursor: pointer;
 }
 .repositorio:hover {
-	background: #00FFFF;
+	background: orange;
 	transform: scale(1.2);
 }
 .links{
@@ -88,6 +88,10 @@ nav a:hover {
 	text-align: center;
 }
 .container-projects {
+	color : black;
+	background-color: white;
+	font-style:inherit;
+	font-weight:bold;
 	width: 100%;
 	height: 315px;
 	max-width: 80vw;
