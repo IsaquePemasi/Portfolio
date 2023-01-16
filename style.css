@@ -30,6 +30,13 @@ nav a:hover {
 	color: #00FFFF;
 	text-decoration: underline;
 }
+.social{
+	align-content: center;
+	align-items: center;
+	border-radius:  100px;
+	text-align: center;
+	background-color: white;
+}
 .linguagens {
 	width: 100px;
 	height: 100px;
