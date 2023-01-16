@@ -30,6 +30,28 @@ nav a:hover {
 	color: #00FFFF;
 	text-decoration: underline;
 }
+.linguagens {
+	width: 100px;
+	height: 100px;
+}
+
+.itens{
+	text-align: center;
+	background-color: white;
+	font-style:inherit;
+	font-weight:bold;
+
+}
+.titulo{
+	font-style:inherit;
+	font-weight:bold;
+	text-align: center;
+	width: 100%;
+	font-size: 50px;
+	height: 100%;
+	align-items: center;
+	align-content: center;
+}
 .navbar{
 	align-items: center;
 	margin-right: 200px;
@@ -85,23 +107,6 @@ nav a:hover {
 	margin: 0 0 1em;
 	clear: left;
 }
-.linguagens {
-	width: 200px;
-	height: 200px;
-}
-.linguagens:hover{
-	width: 250px;
-	height: 250px;
-	transform: scale(1.2);
-}
-
-.itens{
-	text-align: center;
-	background-color: white;
-	font-style:inherit;
-	font-weight:bold;
-
-}
 .container-projects {
 	color : black;
 	background-color: white;
@@ -127,16 +132,6 @@ nav a:hover {
 	margin-top: 100px;
 	text-align: center;
 	background-color: #FFFFFF;
-}
-
-.titulo{
-	font-style:inherit;
-	font-weight:bold;
-	text-align: center;
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-size: 50px
 }
 
 @media screen and (max-width: 480px) {
