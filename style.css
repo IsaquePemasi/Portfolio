@@ -30,11 +30,25 @@ nav a:hover {
 	color: #00FFFF;
 	text-decoration: underline;
 }
+.navbar{
+	align-items: center;
+	margin-right: 200px;
 
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	/*	width: 200px;
+	height: 200px;*/
+}
 .caixa {
-	position: relative;
+	position:initial;
 	width: 940px;
 	margin: 0 auto;
+
+	/* position: relative;
+	width: 940px;
+	margin: 0 auto; */
 }
 .repositorio{
 	text-decoration: none;
@@ -80,10 +94,7 @@ nav a:hover {
 	height: 250px;
 	transform: scale(1.2);
 }
-.logo {
-	width: 200px;
-	height: 200px;
-}
+
 .itens{
 	text-align: center;
 	background-color: white;
@@ -118,16 +129,7 @@ nav a:hover {
 	background-color: #FFFFFF;
 }
 
-.tituloroxo{
-	font-style:inherit;
-	font-weight:bold;
-	text-align: center;
-	width: 100%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-size: 50px
-}
-.tituloazul{
+.titulo{
 	font-style:inherit;
 	font-weight:bold;
 	text-align: center;
