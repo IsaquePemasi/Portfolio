@@ -84,6 +84,7 @@ nav a:hover {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+	margin-right: 10px;
 }
 .repositorio:hover {
 	background: orange;
@@ -96,10 +97,6 @@ nav a:hover {
 .mini{
 	width: 100px;
 	height: 100px;
-}
-.mini:hover{
-	width: 125px;
-	height: 125px;
 }
 .titulo-principal {
 	text-align: center;
