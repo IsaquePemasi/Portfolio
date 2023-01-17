@@ -154,8 +154,8 @@ nav a:hover {
 		text-align: center;
 	}
 	.mini{
-		width: 10px;
-		height: 10px;
+		width: 50px;
+		height: 50px;
 	}
 	nav {
 		position: static;
