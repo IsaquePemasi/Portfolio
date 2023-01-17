@@ -146,7 +146,17 @@ nav a:hover {
 	h1 {
 		text-align: center;
 	}
-
+	.iframe{
+		width: 100%;
+		height: 100%;
+	}
+	.itens{
+		text-align: center;
+	}
+	.mini{
+		width: 10px;
+		height: 10px;
+	}
 	nav {
 		position: static;
 	}
