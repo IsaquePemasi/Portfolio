@@ -36,13 +36,6 @@ nav a:hover {
 	height: 100px;
 }
 
-.itens{
-	text-align: center;
-	background-color: white;
-	font-style:inherit;
-	font-weight:bold;
-
-}
 .titulo{
 	font-style:inherit;
 	font-weight:bold;
@@ -74,6 +67,60 @@ nav a:hover {
 	width: 940px;
 	margin: 0 auto; */
 }
+
+.links{
+	text-decoration: none;
+
+}
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+.social{
+	align-content: center;
+	align-items: center;
+	border-radius:  100px;
+	text-align: center;
+	background-color: white;
+}
+.contatinhos{
+	width: 300px;
+	height: 200px;
+}
+.paragrafo-index{
+	margin-top: 10px;
+}
+.container-projects {
+	color : black;
+	background-color: white;
+	font-style:inherit;
+	font-weight:bold;
+	width: 100%;
+	height: 315px;
+	max-width: 80vw;
+	margin: 30px auto;
+	display: flex;
+}
+.iframe{
+	width: 450px;
+	height: 100%;
+	margin-right: 20px;
+}
+.informacao{
+	text-align: right;
+}
+.itens{
+	text-align: center;
+	background-color: white;
+	font-style:inherit;
+	font-weight:bold;
+}
+.mini{
+	width: 100px;
+	height: 100px;
+}
 .repositorio{
 	text-decoration: none;
 	width:40%;
@@ -92,61 +139,18 @@ nav a:hover {
 	background: orange;
 	transform: scale(1.2);
 }
-.links{
-	text-decoration: none;
-
-}
-.mini{
-	width: 100px;
-	height: 100px;
-}
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
-}
-.container-projects {
-	color : black;
-	background-color: white;
-	font-style:inherit;
-	font-weight:bold;
-	width: 100%;
-	height: 315px;
-	max-width: 80vw;
-	margin: 30px auto;
-	display: flex;
-}
-
-.iframe{
-	width: 450px;
-	height: 100%;
-	margin-right: 20px;
-}
-.informacao{
-	text-align: right;
-}
-.social{
-	align-content: center;
-	align-items: center;
-	border-radius:  100px;
-	text-align: center;
-	background-color: white;
-}
-.contatinhos{
-	width: 300px;
-	height: 200px;
-}
-.paragrafo-index{
-	margin-top: 10px;
-}
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
-
 	h1 {
 		text-align: center;
+	}
+	.container-projects{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+		height: auto;
 	}
 	.iframe{
 		width: 100%;
@@ -158,6 +162,10 @@ nav a:hover {
 	.mini{
 		width: 50px;
 		height: 50px;
+	}
+	.repositorio{
+		width: 10px;
+		height: 10px;
 	}
 	nav {
 		position: static;
