@@ -36,9 +36,9 @@ nav a:hover {
 	height: 100px;
 }
 
-.titulo{
-	font-style:inherit;
-	font-weight:bold;
+.titulo {
+	font-style: inherit;
+	font-weight: bold;
 	text-align: center;
 	width: 100%;
 	font-size: 50px;
@@ -47,19 +47,22 @@ nav a:hover {
 	align-content: center;
 	margin-bottom: 5px;
 }
-.navbar{
+
+.navbar {
 	align-items: center;
 	margin-right: 200px;
 
 }
+
 .logo {
 	width: 100px;
 	height: 100px;
 	/*	width: 200px;
 	height: 200px;*/
 }
+
 .caixa {
-	position:initial;
+	position: initial;
 	width: 940px;
 	margin: 0 auto;
 
@@ -68,62 +71,73 @@ nav a:hover {
 	margin: 0 auto; */
 }
 
-.links{
+.links {
 	text-decoration: none;
 
 }
+
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
 }
-.social{
+
+.social {
 	align-content: center;
 	align-items: center;
-	border-radius:  100px;
+	border-radius: 100px;
 	text-align: center;
 	background-color: white;
 }
-.contatinhos{
+
+.contatinhos {
 	width: 300px;
 	height: 200px;
 }
-.paragrafo-index{
+
+.paragrafo-index {
 	margin-top: 10px;
 }
+
 .container-projects {
-	color : black;
+	color: black;
 	background-color: white;
-	font-style:inherit;
-	font-weight:bold;
+	font-style: inherit;
+	font-weight: bold;
 	width: 100%;
 	height: 315px;
 	max-width: 80vw;
 	margin: 30px auto;
 	display: flex;
+
 }
-.iframe{
+
+.iframe {
 	width: 450px;
 	height: 100%;
 	margin-right: 20px;
 }
-.informacao{
+
+.informacao {
 	text-align: right;
 }
-.itens{
+
+.itens {
 	text-align: center;
 	background-color: white;
-	font-style:inherit;
-	font-weight:bold;
+	font-style: inherit;
+	font-weight: bold;
 }
-.mini{
+
+.mini {
 	width: 100px;
 	height: 100px;
 }
-.repositorio{
+
+.repositorio {
 	text-decoration: none;
-	width:40%;
+	width: 40%;
 	padding: 15px 0;
 	background: #7B42E6;
 	color: white;
@@ -135,44 +149,64 @@ nav a:hover {
 	cursor: pointer;
 	margin-right: 10px;
 }
+
 .repositorio:hover {
 	background: orange;
 	transform: scale(1.2);
 }
+
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+
+	.caixa,
+	.principal,
+	.conteudo-beneficios,
+	.mapa-conteudo,
+	.video {
 		width: auto;
 	}
+
 	h1 {
 		text-align: center;
 	}
-	.container-projects{
+
+	.container-projects {
 		display: flex;
 		flex-direction: column;
 		width: auto;
 		height: auto;
 	}
-	.iframe{
+
+	.iframe {
 		width: 100%;
 		height: 100%;
 	}
-	.itens{
+
+	.itens {
 		text-align: center;
 	}
-	.mini{
+
+	.mini {
 		width: 50px;
 		height: 50px;
 	}
-	.repositorio{
+
+	.repositorio {
 		width: 10px;
 		height: 10px;
 	}
+
 	nav {
 		position: static;
 	}
 
-	.lista-beneficios, .imagem-beneficios {
+	.lista-beneficios,
+	.imagem-beneficios {
 		width: 100%;
+	}
+
+	.container-projects {
+
+		border-radius: 10px 20px;
 	}
 
 }
