@@ -1,88 +1,28 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
-
-header {
-	background: #000;
-	padding: 20px 0;
-}
-
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #7B42E6;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
-}
-
-nav a:hover {
-	color: #00FFFF;
-	text-decoration: underline;
-}
-
 .linguagens {
 	width: 100px;
 	height: 100px;
 }
-
-.titulo {
+.itens {
+	text-align: center;
+	background-color: white;
 	font-style: inherit;
 	font-weight: bold;
+}
+.titulo {
+
 	text-align: center;
-	width: 100%;
-	font-size: 50px;
-	height: 100%;
-	align-items: center;
-	align-content: center;
-	margin-bottom: 5px;
+	font-style: inherit;
+	font-weight: bold;
 }
-
-.navbar {
-	align-items: center;
-	margin-right: 200px;
-
+/* projects */
+.projects-languages {
+	width: 10px;
+	height: 10px;
 }
-
-.logo {
-	width: 100px;
-	height: 100px;
-	/*	width: 200px;
-	height: 200px;*/
-}
-
-.caixa {
-	position: initial;
-	width: 940px;
-	margin: 0 auto;
-
-	/* position: relative;
-	width: 940px;
-	margin: 0 auto; */
-}
-
-.links {
-	text-decoration: none;
-
-}
-
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
-}
-
+/* contato */
 .social {
 	align-content: center;
 	align-items: center;
@@ -90,123 +30,7 @@ nav a:hover {
 	text-align: center;
 	background-color: white;
 }
-
 .contatinhos {
-	width: 300px;
-	height: 200px;
-}
-
-.paragrafo-index {
-	margin-top: 10px;
-}
-
-.container-projects {
-	color: black;
-	background-color: white;
-	font-style: inherit;
-	font-weight: bold;
-	width: 100%;
-	height: 315px;
-	max-width: 80vw;
-	margin: 30px auto;
-	display: flex;
-
-}
-
-.iframe {
-	width: 450px;
-	height: 100%;
-	margin-right: 20px;
-}
-
-.informacao {
-	text-align: right;
-}
-
-.itens {
-	text-align: center;
-	background-color: white;
-	font-style: inherit;
-	font-weight: bold;
-}
-
-.mini {
-	width: 100px;
+	width: 150px;
 	height: 100px;
-}
-
-.repositorio {
-	text-decoration: none;
-	width: 40%;
-	padding: 15px 0;
-	background: #7B42E6;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-	margin-right: 10px;
-}
-
-.repositorio:hover {
-	background: orange;
-	transform: scale(1.2);
-}
-
-@media screen and (max-width: 480px) {
-
-	.caixa,
-	.principal,
-	.conteudo-beneficios,
-	.mapa-conteudo,
-	.video {
-		width: auto;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	.container-projects {
-		display: flex;
-		flex-direction: column;
-		width: auto;
-		height: auto;
-	}
-
-	.iframe {
-		width: 100%;
-		height: 100%;
-	}
-
-	.itens {
-		text-align: center;
-	}
-
-	.mini {
-		width: 50px;
-		height: 50px;
-	}
-
-	.repositorio {
-		width: 10px;
-		height: 10px;
-	}
-
-	nav {
-		position: static;
-	}
-
-	.lista-beneficios,
-	.imagem-beneficios {
-		width: 100%;
-	}
-
-	.container-projects {
-
-		border-radius: 10px 20px;
-	}
-
 }

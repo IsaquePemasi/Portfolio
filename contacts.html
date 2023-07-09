@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<link rel="icon" href="./img/icone.png" type="image/png">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Contacts</title>
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="icon" href="./img/icone.png">
+    <link rel="stylesheet" href="style.css">
+    <title> PetAmigo - Doação</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html"> IsaquePMS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+              aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="textoNavbar">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="projects.html">Projects </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contacts.html">Contacts</a>
+                  </li>
+              </ul>
+              <span class="navbar-text">
+                👾 🤖 🦾 📀 🧑‍💻 🎮  🎧 📲 💿 💻 ⌨️ 👨‍💻 📱 💽 💾 👾 🤖 🦾 📀 🧑‍💻 🎮  🎧 📲 💿 💻 ⌨️ 👨‍💻 📱 💽 💾 👾 🤖 🦾 📀 🧑‍💻 🎮  🎧 📲 💿  
+              </span>
+          </div>
+      </nav>
+  </header>
 
-		<style>
-.color-change-5x{-webkit-animation:color-change-5x 8s linear infinite alternate both;animation:color-change-5x 8s linear infinite alternate both}
-@-webkit-keyframes color-change-5x{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}@keyframes color-change-5x{0%{background:#19dcea}25%{background:#b22cff}50%{background:#ea2222}75%{background:#f5be10}100%{background:#3bd80d}}
-		</style>
-	</head>
-	<body class = "color-change-5x">
-		<header>
-			<div class="caixa">
-				<a href="./index.html"><img class="logo" src="/img/Isaque.jpg" alt="logo" ></a> 
-				<nav class = "navbar">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<div style="text-align:center;">
-			<form method="post" action="https://formsubmit.co/isaquep44@gmail.com">
-				<div >
-					<input type="text" name="name" class="form-control" placeholder="Digite seu nome" required />
-				</div>
-				<div class="form-group">
-					<input type="email" name="email" class="form-control" placeholder="Digite seu email " required />
-				</div>
-				<div class="form-group">
-					<textarea cols="100" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
-				</div>
-				<button type="submit" class="btn btn-primary mt-3">Enviar</button>
-				<input type="hidden" name="_subject" value="Novo contato!">
-				<input type="text" name="_honey" style="display:none">
-				<input type="hidden" name="_captcha" value="false">
-			</form>
-		</div>
-		<div>
-			<div class="social">
-				<a href="https://api.whatsapp.com/send?phone=+5511987886593&text=Oi%20Isaque" title="WhatsApp" target="_blank"><img class="contatinhos" src="./img/whatsapp-logo-png.png" alt="whatsapp logo" ></a>
-				<a href="https://github.com/IsaquePemasi" title="Github"><img class="contatinhos" src="./img/github-logo.png" alt="github-logo" target="_blank"></a>
-				<a href="https://www.linkedin.com/in/isaquepemasi" title="LinkedIn" target="_blank"><img class="contatinhos" src="./img/logo-linkedin-icon-4096.png" alt="linkedIn-logo"></a>
-			</div>
-		</div>
-	</body>
+    <main>
+      <div style="text-align:center;">
+        <form method="post" action="https://formsubmit.co/isaquep44@gmail.com">
+          <div >
+            <input type="text" name="name" class="form-control" placeholder="Digite seu nome" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Digite seu email " required />
+          </div>
+          <div class="form-group">
+            <textarea cols="46" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          <input type="hidden" name="_subject" value="Novo contato!">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+       <div>
+        <div class="social">
+          <a href="https://api.whatsapp.com/send?phone=+5511987886593&text=Oi%20Isaque" title="WhatsApp" target="_blank"><img class="contatinhos" src="./img/whatsapp-logo-png.png" alt="whatsapp logo" ></a>
+          <a href="https://github.com/IsaquePemasi" title="Github"><img class="contatinhos" src="./img/github-logo.png" alt="github-logo" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/isaquepemasi" title="LinkedIn" target="_blank"><img class="contatinhos" src="./img/logo-linkedin-icon-4096.png" alt="linkedIn-logo"></a>
+        </div>
+      </div> 
+          <hr class="featurette-divider">
+    </main>
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Voltar ao topo</a></p>
+        <p>© IsaquePMS 2020 - 2023 <br>👨‍💻 Feito por <a href="https://github.com/IsaquePemasi">Isaque P.
+                Marques</a>
+        </p>
+    </footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
