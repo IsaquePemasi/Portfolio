@@ -1,27 +1,32 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
+
 .linguagens {
 	width: 100px;
 	height: 100px;
 }
+
 .itens {
 	text-align: center;
 	background-color: white;
 	font-style: inherit;
 	font-weight: bold;
 }
+
 .titulo {
 
 	text-align: center;
 	font-style: inherit;
 	font-weight: bold;
 }
+
 /* projects */
 .projects-languages {
 	width: 35px;
 	height: 35px;
 }
+
 /* contato */
 .social {
 	align-content: center;
@@ -30,17 +35,25 @@ body {
 	text-align: center;
 	background-color: white;
 }
+
 .contatinhos {
 	width: 150px;
 	height: 100px;
 }
-.contato-input{
+
+.contato-input {
 	width: 100%;
 	box-sizing: border-box;
 	padding: 10px;
 	margin-top: 10px;
 }
-.contatos-button{
+
+.contatos-button {
 	margin-bottom: 10px;
-	border-radius:15px;
+	border-radius: 15px;
+}
+
+#repositorio {
+	background-color: #0056B3;
+	color: aqua;
 }
